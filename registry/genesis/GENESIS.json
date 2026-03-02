@@ -1,21 +1,12 @@
 {
   "v": "HBCE-REGISTRY-GENESIS-1",
   "registry_id": "HBCE-JOKER-C2-REGISTRY",
+  "root_public_key_sha256": "3ac274ed4b5b735adbf3523a387c8c4925d685d0a0790170d7c9142c1b612305",
+  "root_public_key_path": "registry/keys/joker-c2_public.pem",
   "created_at": "2026-03-02T00:00:00Z",
-  "genesis_entry_hash": "GENESIS",
   "policy": {
     "append_only": true,
-    "hash_only_public": true,
     "fail_closed": true,
-    "hash_alg": "sha256",
-    "sig_alg": "ed25519"
-  },
-  "root": {
-    "root_public_key_sha256": null,
-    "root_public_key_path": "registry/keys/joker-c2_public.pem"
-  },
-  "notes": [
-    "This public registry publishes hash-only governance artifacts.",
-    "No private keys are stored in this repository."
-  ]
+    "evidence_required": true
+  }
 }
