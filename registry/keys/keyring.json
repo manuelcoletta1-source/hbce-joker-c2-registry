@@ -1,0 +1,16 @@
+{
+  "v": "HBCE-KEYRING-1",
+  "registry_id": "HBCE-JOKER-C2-REGISTRY",
+  "ts": "2026-03-02T00:00:00Z",
+  "keys": [
+    {
+      "key_id": null,
+      "name": "JOKER-C2 SIGNER",
+      "alg": "ed25519",
+      "status": "ACTIVE",
+      "public_key_path": "registry/keys/joker-c2_public.pem",
+      "valid_from": "2026-03-02T00:00:00Z",
+      "valid_to": null
+    }
+  ]
+}
