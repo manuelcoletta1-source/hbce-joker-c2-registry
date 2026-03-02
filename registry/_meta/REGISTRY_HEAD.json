@@ -1,0 +1,27 @@
+{
+  "v": "HBCE-REGISTRY-HEAD-1",
+  "registry_id": "HBCE-JOKER-C2-REGISTRY",
+  "ts": "2026-03-02T00:00:00Z",
+  "policy": {
+    "append_only": true,
+    "hash_only_public": true,
+    "fail_closed": true,
+    "hash_alg": "sha256",
+    "sig_alg": "ed25519"
+  },
+  "pointers": {
+    "genesis": "registry/genesis/GENESIS.json",
+    "keyring": "registry/keys/keyring.json",
+    "revocations": "registry/revocations/revocations.json",
+    "latest_snapshot": null,
+    "latest_ledger_month": null
+  },
+  "integrity": {
+    "latest_snapshot_sha256": null,
+    "latest_ledger_month_sha256": null
+  },
+  "active_key": {
+    "key_id": null,
+    "public_key_path": null
+  }
+}
