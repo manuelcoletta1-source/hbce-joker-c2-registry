@@ -1,16 +1,15 @@
 {
-  "v": "HBCE-KEYRING-1",
+  "v": "HBCE-JOKER-C2-KEYRING-1",
   "registry_id": "HBCE-JOKER-C2-REGISTRY",
   "ts": "2026-03-02T00:00:00Z",
+  "active_key_sha256": "3ac274ed4b5b735adbf3523a387c8c4925d685d0a0790170d7c9142c1b612305",
   "keys": [
     {
-      "key_id": null,
-      "name": "JOKER-C2 SIGNER",
+      "id": "JOKER-C2-KEY-1",
       "alg": "ed25519",
-      "status": "ACTIVE",
-      "public_key_path": "registry/keys/joker-c2_public.pem",
-      "valid_from": "2026-03-02T00:00:00Z",
-      "valid_to": null
+      "public_key_pem": "joker-c2_public.pem",
+      "sha256": "3ac274ed4b5b735adbf3523a387c8c4925d685d0a0790170d7c9142c1b612305",
+      "status": "active"
     }
   ]
 }
